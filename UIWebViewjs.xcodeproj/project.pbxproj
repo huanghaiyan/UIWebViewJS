@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A22392961C48EF0F003B8A01 /* UIColor+KVNContrast.m in Sources */ = {isa = PBXBuildFile; fileRef = A223928A1C48EF0F003B8A01 /* UIColor+KVNContrast.m */; };
+		A22392971C48EF0F003B8A01 /* UIImage+KVNEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = A223928C1C48EF0F003B8A01 /* UIImage+KVNEmpty.m */; };
+		A22392981C48EF0F003B8A01 /* UIImage+KVNImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = A223928E1C48EF0F003B8A01 /* UIImage+KVNImageEffects.m */; };
+		A22392991C48EF0F003B8A01 /* KVNProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = A22392911C48EF0F003B8A01 /* KVNProgress.m */; };
+		A223929A1C48EF0F003B8A01 /* KVNProgressConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A22392931C48EF0F003B8A01 /* KVNProgressConfiguration.m */; };
+		A223929B1C48EF0F003B8A01 /* KVNProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22392951C48EF0F003B8A01 /* KVNProgressView.xib */; };
+		A293C5781C4C8A4A00BFD4D7 /* TransitionVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = A293C5771C4C8A4A00BFD4D7 /* TransitionVIew.m */; };
+		A2FEDC9D1C48903C00AE7948 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FEDC9C1C48903C00AE7948 /* main.m */; };
+		A2FEDCA01C48903C00AE7948 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FEDC9F1C48903C00AE7948 /* AppDelegate.m */; };
+		A2FEDCA31C48903C00AE7948 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FEDCA21C48903C00AE7948 /* ViewController.m */; };
+		A2FEDCA61C48903C00AE7948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FEDCA41C48903C00AE7948 /* Main.storyboard */; };
+		A2FEDCA81C48903C00AE7948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FEDCA71C48903C00AE7948 /* Assets.xcassets */; };
+		A2FEDCAB1C48903C00AE7948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FEDCA91C48903C00AE7948 /* LaunchScreen.storyboard */; };
+		A2FEDCB61C48903C00AE7948 /* UIWebViewjsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FEDCB51C48903C00AE7948 /* UIWebViewjsTests.m */; };
+		A2FEDCC11C48903C00AE7948 /* UIWebViewjsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FEDCC01C48903C00AE7948 /* UIWebViewjsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2FEDCB21C48903C00AE7948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2FEDC901C48903C00AE7948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2FEDC971C48903C00AE7948;
+			remoteInfo = UIWebViewjs;
+		};
+		A2FEDCBD1C48903C00AE7948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2FEDC901C48903C00AE7948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2FEDC971C48903C00AE7948;
+			remoteInfo = UIWebViewjs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A22392891C48EF0F003B8A01 /* UIColor+KVNContrast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KVNContrast.h"; sourceTree = "<group>"; };
+		A223928A1C48EF0F003B8A01 /* UIColor+KVNContrast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KVNContrast.m"; sourceTree = "<group>"; };
+		A223928B1C48EF0F003B8A01 /* UIImage+KVNEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KVNEmpty.h"; sourceTree = "<group>"; };
+		A223928C1C48EF0F003B8A01 /* UIImage+KVNEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KVNEmpty.m"; sourceTree = "<group>"; };
+		A223928D1C48EF0F003B8A01 /* UIImage+KVNImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KVNImageEffects.h"; sourceTree = "<group>"; };
+		A223928E1C48EF0F003B8A01 /* UIImage+KVNImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KVNImageEffects.m"; sourceTree = "<group>"; };
+		A22392901C48EF0F003B8A01 /* KVNProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVNProgress.h; sourceTree = "<group>"; };
+		A22392911C48EF0F003B8A01 /* KVNProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVNProgress.m; sourceTree = "<group>"; };
+		A22392921C48EF0F003B8A01 /* KVNProgressConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVNProgressConfiguration.h; sourceTree = "<group>"; };
+		A22392931C48EF0F003B8A01 /* KVNProgressConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVNProgressConfiguration.m; sourceTree = "<group>"; };
+		A22392951C48EF0F003B8A01 /* KVNProgressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KVNProgressView.xib; sourceTree = "<group>"; };
+		A293C5761C4C8A4A00BFD4D7 /* TransitionVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionVIew.h; sourceTree = "<group>"; };
+		A293C5771C4C8A4A00BFD4D7 /* TransitionVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionVIew.m; sourceTree = "<group>"; };
+		A2FEDC981C48903C00AE7948 /* UIWebViewjs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewjs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FEDC9C1C48903C00AE7948 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2FEDC9E1C48903C00AE7948 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2FEDC9F1C48903C00AE7948 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2FEDCA11C48903C00AE7948 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2FEDCA21C48903C00AE7948 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2FEDCA51C48903C00AE7948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2FEDCA71C48903C00AE7948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2FEDCAA1C48903C00AE7948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2FEDCAC1C48903C00AE7948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FEDCB11C48903C00AE7948 /* UIWebViewjsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIWebViewjsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FEDCB51C48903C00AE7948 /* UIWebViewjsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewjsTests.m; sourceTree = "<group>"; };
+		A2FEDCB71C48903C00AE7948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FEDCBC1C48903C00AE7948 /* UIWebViewjsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIWebViewjsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FEDCC01C48903C00AE7948 /* UIWebViewjsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWebViewjsUITests.m; sourceTree = "<group>"; };
+		A2FEDCC21C48903C00AE7948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2FEDC951C48903C00AE7948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FEDCAE1C48903C00AE7948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FEDCB91C48903C00AE7948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A22392871C48EF0F003B8A01 /* KVNProgress */ = {
+			isa = PBXGroup;
+			children = (
+				A22392881C48EF0F003B8A01 /* Categories */,
+				A223928F1C48EF0F003B8A01 /* Classes */,
+				A22392941C48EF0F003B8A01 /* Resources */,
+			);
+			path = KVNProgress;
+			sourceTree = "<group>";
+		};
+		A22392881C48EF0F003B8A01 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A22392891C48EF0F003B8A01 /* UIColor+KVNContrast.h */,
+				A223928A1C48EF0F003B8A01 /* UIColor+KVNContrast.m */,
+				A223928B1C48EF0F003B8A01 /* UIImage+KVNEmpty.h */,
+				A223928C1C48EF0F003B8A01 /* UIImage+KVNEmpty.m */,
+				A223928D1C48EF0F003B8A01 /* UIImage+KVNImageEffects.h */,
+				A223928E1C48EF0F003B8A01 /* UIImage+KVNImageEffects.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		A223928F1C48EF0F003B8A01 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A22392901C48EF0F003B8A01 /* KVNProgress.h */,
+				A22392911C48EF0F003B8A01 /* KVNProgress.m */,
+				A22392921C48EF0F003B8A01 /* KVNProgressConfiguration.h */,
+				A22392931C48EF0F003B8A01 /* KVNProgressConfiguration.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A22392941C48EF0F003B8A01 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A22392951C48EF0F003B8A01 /* KVNProgressView.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2FEDC8F1C48903C00AE7948 = {
+			isa = PBXGroup;
+			children = (
+				A2FEDC9A1C48903C00AE7948 /* UIWebViewjs */,
+				A2FEDCB41C48903C00AE7948 /* UIWebViewjsTests */,
+				A2FEDCBF1C48903C00AE7948 /* UIWebViewjsUITests */,
+				A2FEDC991C48903C00AE7948 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2FEDC991C48903C00AE7948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2FEDC981C48903C00AE7948 /* UIWebViewjs.app */,
+				A2FEDCB11C48903C00AE7948 /* UIWebViewjsTests.xctest */,
+				A2FEDCBC1C48903C00AE7948 /* UIWebViewjsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2FEDC9A1C48903C00AE7948 /* UIWebViewjs */ = {
+			isa = PBXGroup;
+			children = (
+				A22392871C48EF0F003B8A01 /* KVNProgress */,
+				A2FEDC9E1C48903C00AE7948 /* AppDelegate.h */,
+				A2FEDC9F1C48903C00AE7948 /* AppDelegate.m */,
+				A2FEDCA11C48903C00AE7948 /* ViewController.h */,
+				A2FEDCA21C48903C00AE7948 /* ViewController.m */,
+				A293C5761C4C8A4A00BFD4D7 /* TransitionVIew.h */,
+				A293C5771C4C8A4A00BFD4D7 /* TransitionVIew.m */,
+				A2FEDCA41C48903C00AE7948 /* Main.storyboard */,
+				A2FEDCA71C48903C00AE7948 /* Assets.xcassets */,
+				A2FEDCA91C48903C00AE7948 /* LaunchScreen.storyboard */,
+				A2FEDCAC1C48903C00AE7948 /* Info.plist */,
+				A2FEDC9B1C48903C00AE7948 /* Supporting Files */,
+			);
+			path = UIWebViewjs;
+			sourceTree = "<group>";
+		};
+		A2FEDC9B1C48903C00AE7948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2FEDC9C1C48903C00AE7948 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2FEDCB41C48903C00AE7948 /* UIWebViewjsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2FEDCB51C48903C00AE7948 /* UIWebViewjsTests.m */,
+				A2FEDCB71C48903C00AE7948 /* Info.plist */,
+			);
+			path = UIWebViewjsTests;
+			sourceTree = "<group>";
+		};
+		A2FEDCBF1C48903C00AE7948 /* UIWebViewjsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2FEDCC01C48903C00AE7948 /* UIWebViewjsUITests.m */,
+				A2FEDCC21C48903C00AE7948 /* Info.plist */,
+			);
+			path = UIWebViewjsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2FEDC971C48903C00AE7948 /* UIWebViewjs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FEDCC51C48903C00AE7948 /* Build configuration list for PBXNativeTarget "UIWebViewjs" */;
+			buildPhases = (
+				A2FEDC941C48903C00AE7948 /* Sources */,
+				A2FEDC951C48903C00AE7948 /* Frameworks */,
+				A2FEDC961C48903C00AE7948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIWebViewjs;
+			productName = UIWebViewjs;
+			productReference = A2FEDC981C48903C00AE7948 /* UIWebViewjs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2FEDCB01C48903C00AE7948 /* UIWebViewjsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FEDCC81C48903C00AE7948 /* Build configuration list for PBXNativeTarget "UIWebViewjsTests" */;
+			buildPhases = (
+				A2FEDCAD1C48903C00AE7948 /* Sources */,
+				A2FEDCAE1C48903C00AE7948 /* Frameworks */,
+				A2FEDCAF1C48903C00AE7948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2FEDCB31C48903C00AE7948 /* PBXTargetDependency */,
+			);
+			name = UIWebViewjsTests;
+			productName = UIWebViewjsTests;
+			productReference = A2FEDCB11C48903C00AE7948 /* UIWebViewjsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2FEDCBB1C48903C00AE7948 /* UIWebViewjsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FEDCCB1C48903C00AE7948 /* Build configuration list for PBXNativeTarget "UIWebViewjsUITests" */;
+			buildPhases = (
+				A2FEDCB81C48903C00AE7948 /* Sources */,
+				A2FEDCB91C48903C00AE7948 /* Frameworks */,
+				A2FEDCBA1C48903C00AE7948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2FEDCBE1C48903C00AE7948 /* PBXTargetDependency */,
+			);
+			name = UIWebViewjsUITests;
+			productName = UIWebViewjsUITests;
+			productReference = A2FEDCBC1C48903C00AE7948 /* UIWebViewjsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2FEDC901C48903C00AE7948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王恕";
+				TargetAttributes = {
+					A2FEDC971C48903C00AE7948 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 62Q9855255;
+					};
+					A2FEDCB01C48903C00AE7948 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 62Q9855255;
+						TestTargetID = A2FEDC971C48903C00AE7948;
+					};
+					A2FEDCBB1C48903C00AE7948 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 62Q9855255;
+						TestTargetID = A2FEDC971C48903C00AE7948;
+					};
+				};
+			};
+			buildConfigurationList = A2FEDC931C48903C00AE7948 /* Build configuration list for PBXProject "UIWebViewjs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2FEDC8F1C48903C00AE7948;
+			productRefGroup = A2FEDC991C48903C00AE7948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2FEDC971C48903C00AE7948 /* UIWebViewjs */,
+				A2FEDCB01C48903C00AE7948 /* UIWebViewjsTests */,
+				A2FEDCBB1C48903C00AE7948 /* UIWebViewjsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2FEDC961C48903C00AE7948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FEDCAB1C48903C00AE7948 /* LaunchScreen.storyboard in Resources */,
+				A2FEDCA81C48903C00AE7948 /* Assets.xcassets in Resources */,
+				A2FEDCA61C48903C00AE7948 /* Main.storyboard in Resources */,
+				A223929B1C48EF0F003B8A01 /* KVNProgressView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FEDCAF1C48903C00AE7948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FEDCBA1C48903C00AE7948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2FEDC941C48903C00AE7948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A293C5781C4C8A4A00BFD4D7 /* TransitionVIew.m in Sources */,
+				A22392981C48EF0F003B8A01 /* UIImage+KVNImageEffects.m in Sources */,
+				A223929A1C48EF0F003B8A01 /* KVNProgressConfiguration.m in Sources */,
+				A2FEDCA31C48903C00AE7948 /* ViewController.m in Sources */,
+				A22392961C48EF0F003B8A01 /* UIColor+KVNContrast.m in Sources */,
+				A22392971C48EF0F003B8A01 /* UIImage+KVNEmpty.m in Sources */,
+				A2FEDCA01C48903C00AE7948 /* AppDelegate.m in Sources */,
+				A22392991C48EF0F003B8A01 /* KVNProgress.m in Sources */,
+				A2FEDC9D1C48903C00AE7948 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FEDCAD1C48903C00AE7948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FEDCB61C48903C00AE7948 /* UIWebViewjsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FEDCB81C48903C00AE7948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FEDCC11C48903C00AE7948 /* UIWebViewjsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2FEDCB31C48903C00AE7948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2FEDC971C48903C00AE7948 /* UIWebViewjs */;
+			targetProxy = A2FEDCB21C48903C00AE7948 /* PBXContainerItemProxy */;
+		};
+		A2FEDCBE1C48903C00AE7948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2FEDC971C48903C00AE7948 /* UIWebViewjs */;
+			targetProxy = A2FEDCBD1C48903C00AE7948 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2FEDCA41C48903C00AE7948 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FEDCA51C48903C00AE7948 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2FEDCA91C48903C00AE7948 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FEDCAA1C48903C00AE7948 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2FEDCC31C48903C00AE7948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2FEDCC41C48903C00AE7948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2FEDCC61C48903C00AE7948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIWebViewjs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.UIWebViewjs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2FEDCC71C48903C00AE7948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UIWebViewjs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.UIWebViewjs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2FEDCC91C48903C00AE7948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIWebViewjsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.UIWebViewjsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIWebViewjs.app/UIWebViewjs";
+			};
+			name = Debug;
+		};
+		A2FEDCCA1C48903C00AE7948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UIWebViewjsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.UIWebViewjsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIWebViewjs.app/UIWebViewjs";
+			};
+			name = Release;
+		};
+		A2FEDCCC1C48903C00AE7948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIWebViewjsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.UIWebViewjsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIWebViewjs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A2FEDCCD1C48903C00AE7948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UIWebViewjsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.UIWebViewjsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UIWebViewjs;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2FEDC931C48903C00AE7948 /* Build configuration list for PBXProject "UIWebViewjs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FEDCC31C48903C00AE7948 /* Debug */,
+				A2FEDCC41C48903C00AE7948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FEDCC51C48903C00AE7948 /* Build configuration list for PBXNativeTarget "UIWebViewjs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FEDCC61C48903C00AE7948 /* Debug */,
+				A2FEDCC71C48903C00AE7948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FEDCC81C48903C00AE7948 /* Build configuration list for PBXNativeTarget "UIWebViewjsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FEDCC91C48903C00AE7948 /* Debug */,
+				A2FEDCCA1C48903C00AE7948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FEDCCB1C48903C00AE7948 /* Build configuration list for PBXNativeTarget "UIWebViewjsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FEDCCC1C48903C00AE7948 /* Debug */,
+				A2FEDCCD1C48903C00AE7948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2FEDC901C48903C00AE7948 /* Project object */;
+}
